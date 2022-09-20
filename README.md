@@ -7,7 +7,7 @@ Vaccitech in house nanopore sequencing, recalling .fast5 files with super accura
 - Open `super_basecalling.ipynb`: File>Open from URL... `https://raw.githubusercontent.com/Vaccitech/nanopore/main/super_basecalling.ipynb`.
 - Make a folder contain **all** .fast5 files (pass AND fail).
 - Run the first code cell: click the arrow in it's top right corner.
-- Fill the form with the path of the folder containing the .fast5 files, folder to output fastq files to, guppy config file (based on sample and flowcell).
+- Fill the form with the path of the folder containing the .fast5 files, folder to output fastq files to, guppy config file (based on sample and flowcell). None of these folders can have spaces in their names.
 - Click `>Enter`
 - Run the next code cell, check that the printed lines are correct.
 - Run the final code cell.
