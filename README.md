@@ -19,3 +19,17 @@ Vaccitech in house nanopore sequencing, recalling .fast5 files with super accura
 - Upload to sharedrive `S:\Research & Development\Bioinformatics`.
 - Let Bioinformatics know what kind of analysis you'd like run.
 - :sunglasses:
+
+## View multiple BAM files
+The nanopore sequencer outputs reads into multiple files; if "Minknow" is used
+to align these reads, multiple .BAM files are produced. With multiple
+.BAM files it is harder to get a clear overview. IGV is able to load several
+.BAM files at once if given a list of files to load.
+
+Highlight the .BAM file you want to open. Shift + right click. Copy as path.
+Paste the paths into a plain text editer, something like notepad and not word.
+Delete the quotes " around each path. Save as `file-name.bam.list`. Load as normal
+in IGV.
+
+If you have trouble try deleting any empty lines from you `.bam.list` file.
+Also test in on some files without spaces in the names/folder names.
