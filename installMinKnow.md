@@ -18,3 +18,12 @@ This can be a fiddly process, see [here](https://community.nanoporetech.com/supp
 4. If you click this a window will open telling you which program is causing the installation to be blocked.
 
 5. Delete these files
+
+- Enable super accurate basecalling. set the chunks per runner argument
+Run this command in command prompt with admin rights 
+`C:\Program Files\OxfordNanopore\MinKNOW\bin\config_editor" --conf application --filename "C:\Program Files\OxfordNanopore\MinKNOW\conf\app_conf" --set guppy.server_config.extra_arguments="--chunks_per_runner 80`
+It's not clear that this was actually what caused the problem.
+Several times, super accurate calling has failed silently,
+the logs show no error but no pass/fail folders have been produced.
+One time we did get an error Ellie suggested that would solve it.
+Not yet clear how reliable this fix is.
