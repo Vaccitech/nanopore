@@ -16,7 +16,8 @@ Vaccitech in house nanopore sequencing, recalling .fast5 files with super accura
 ## Share with Bioinformatics
 - Add flowcell reports to output folder: copy and paste all extra reports from original sequencing folder e.g. `final_summary_*.txt`, `report_*.html`, `barcode_alignment_*.tsv`
 - Zip the folder with all the .fastq and summary files.
-- Upload to sharedrive `S:\Research & Development\Bioinformatics`.
+<!-- - Upload to sharedrive `S:\Research & Development\Bioinformatics`. -->
+- Upload to bioinformatics server using winSCP.
 - Let Bioinformatics know what kind of analysis you'd like run.
 - :sunglasses:
 
